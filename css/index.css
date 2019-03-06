@@ -22,6 +22,16 @@ li{
 a{
     text-decoration: none;
 }
+form{
+    display: none;
+}
+button{
+    width: 60px;
+    line-height: 20px;
+    float: right;
+    background: #d8d8d8;
+    border: none;
+}
 
 /* wrapper */
 #wrapper{
