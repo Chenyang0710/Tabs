@@ -1,1 +1,54 @@
-@charset "utf-8"
+@charset "utf-8";
+/* 全局 */
+body,
+ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #fff;
+    font-size: 16px;
+}
+input{
+    color: #fff;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #d8d8d8;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* wrapper */
+#wrapper{
+    width: 400px;
+    margin: 50px auto;
+    background:linear-gradient(#0090ff,#0600ff);
+}
+
+/* nav */
+ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav li{
+    float: left;
+    width: 100px;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    background:linear-gradient(#0090ff,#0600ff);
+}
+nav li a{
+    color: #fff;
+}
+
+/* main */
+main{
+    padding: 10px 20px;
+}
